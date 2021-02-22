@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Komputer Store</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@356&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="grid">
+        <div class="bank">
+            <div>
+                <h1>Joe Banker</h1>
+            </div>
+            <div class="bank-content">
+                <table id="bank-table">
+                    <tr>
+                        <td>Balance</td>
+                        <td id="balance-cell">200 Kr</td>
+                    </tr>
+                    <tr id="loan-row">
+                        <td>Loan</td>
+                        <td id="loan-cell">0 Kr</td>
+                    </tr>
+                </table>
+                <div id="bank-buttons">
+                    <button id="loan-button">Get a Loan</button>
+                </div>
+            </div>
+        </div>
+        <div class="work">
+            <div>
+                <h1>Work</h1>
+            </div>
+            <div class="work-content">
+                <table id="work-table">
+                    <tr>
+                        <td>Pay</td>
+                        <td id="pay-cell">200 Kr.</td>
+                    </tr>
+                </table>
+                <button id="bank-button">Bank</button>
+                <button id="work-button">Work</button>
+                <button id="pay-loan-button">Repay</button>
+            </div>
+        </div>
+        <div class="laptop">
+            <div>
+                <h1>Laptops</h1>
+            </div>
+            <div>
+                <select id="laptops">
+                </select>
+                <h2>Features:</h2>
+                <span id="feature-list">
+                    <p>Feature 1</p>
+                    <p>feature 2</p>
+                    <p>feature 3</p>
+                </span>
+            </div>
+        </div>
+        <div class="laptop-display">
+            <img id="image" src="">
+            <div>
+                <h1 id="name">Laptop name</h1>
+                <p id="description">this is the description of the laptop</p>
+            </div>
+            <div id="price-box">
+                <h2 id="price">2000 DKK</h2>
+                <button id="buy">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
